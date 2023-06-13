@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
 body{
-    background-color: #f9ff60;
-background-image: linear-gradient(315deg, #f9ff60 0%, #ffef77 74%);
+    background-color: #7ce8ff;
+background-image: linear-gradient(315deg, #7ce8ff 0%, #0080bf 74%);
 }
 section{
     padding-top: 20px;
@@ -24,8 +24,9 @@ p{
 .btn{
     font-family: 'Nanum Myeongjo', serif;
     font-size: 20px;
-    color: white;
+    color: black;
     font-weight: bold;
+    background-color: yellow;
 }
 nav {
     color: black;
