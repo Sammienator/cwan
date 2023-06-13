@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title> Cynthia Wanja.</title>
   </head>
@@ -33,14 +34,14 @@
                 
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#about">About Us</a>
               </li>
               
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -52,7 +53,7 @@
                 <a class="nav-link" href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"> <button class="btn btn-outline-secondary">
+                <a class="nav-link" href="#contact"> <button class="btn btn-outline-secondary">
                     <ion-icon name="calendar"> </ion-icon>Book With Us
 
                 </button> </a>
@@ -71,14 +72,20 @@
       <div class="half-half-image-text">
         <div class="container">
           <div class="row">
-            <div class="col-12">
+            <div  data-aos="fade-down"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="2000"  class="col-12">
               <p style="color: #add8e6; font-weight:bolder">Welcome To My World.</p>
              
             
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 ">
+            <div data-aos="fade-right"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="2000"  class="col-lg-6 ">
               <div class="content">
                 <h1>Beauty Is Power A <br> smile is its Sword.</h1>
                 <p>I am able to host surprisingly fun in-person and virtual team building events.I have 30+ event types specifically designed to build happier teams. I  continuously update and improve these events based on a combination of hundreds of Customer feedback responses as well as Well researched market analysis. We design, organize, and host every single event ourselves – which means we can ensure top notch quality from start to finish. We never use third parties or subcontract your experience.</p>
@@ -89,7 +96,13 @@
                 
               </div>
             </div>
-            <div class="col-lg-6  my-2">
+
+
+
+            <div  data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="2000" class="col-lg-6  my-2">
               <img class="w-100"  src="images/cyth3.jpeg" alt="">
             </div>
           </div>
@@ -106,7 +119,10 @@
 
             <div class="row text-center " >
                <h2 class="my-2"> We Excel In The Following Fields.</h2>
-              <div class="col-sm-4">
+
+              <div data-aos="fade-down"
+              data-aos-offset="500"
+              data-aos-duration="1000" class="col-sm-4">
                 <div class="card mb-3">
                   <img src="images/C2.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -117,7 +133,10 @@
                 </div>
               </div>
       
-              <div class="col-sm-4">
+              <div data-aos="fade-down"
+             
+              data-aos-offset="500"
+              data-aos-duration="2000" class="col-sm-4">
                 <div class="card mb-3">
                   <img src="images/C1.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -131,7 +150,10 @@
       
       
       
-              <div class="col-sm-4 width:18rem;">
+              <div data-aos="fade-down"
+              
+              data-aos-offset="500"
+              data-aos-duration="3000" class="col-sm-4 width:18rem;">
                 <div class="card mb-3">
                   <img src="images/C3.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -154,7 +176,9 @@
 
 
 
-        <section class="container-fluid" id="about">
+        <section data-aos="fade-down-right"
+        data-aos-offset="500"
+        data-aos-duration="3000"  class="container-fluid" id="about">
 
             <div class="container row flex-lg-row-reverse  g-5 ">
                 <div class="col-lg-6">
@@ -175,12 +199,16 @@
         </section>
         
 
-        <section>
+        <section id="benefits">
             <div class="container px-4 py-5">
               <p class=" border-top text-center pb-2"> Our Awesome Benefits </p>
-              <h2 class="pb-2 border-bottom text-center">Actually what you will get from us.</h2>
+              <h2 data-aos="fade-down-left"
+              data-aos-offset="500"
+              data-aos-duration="1000"  class="pb-2 border-bottom text-center">Actually what you will get from us.</h2>
           
-              <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+              <div data-aos="fade-down-right"
+              data-aos-offset="500"
+              data-aos-duration="3000"  class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
                 <div class="col d-flex flex-column align-items-start gap-2">
                   <h2 class="fw-bold text-body-emphasis">Uncompromising Quality and Professionalism.</h2>
                   <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading. </p>
@@ -221,7 +249,7 @@
 
 
 
-          <section class="ftco-section" style="background: white;">
+          <section id="contact" class="ftco-section" style="background: white;">
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-md-6 text-center mb-5">
@@ -319,7 +347,9 @@
           </section>
 
 
-          <section style="background: white;">
+          <section data-aos="fade-up"
+          data-aos-offset="500"
+          data-aos-duration="3000"  id="blog" style="background: white;">
             <div class="album py-5 bg-body-tertiary">
               <div class="container">
           
@@ -387,7 +417,7 @@
 
 
 
-          <section>
+          <section id="footer">
             <div class="container">
 
                 <h1> Cynthia Wanja</h1>
@@ -404,21 +434,22 @@
                 <div class="col mb-3">
                   <h5>EXPLORE</h5>
                   <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About Us</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Appointments</a></li>
+                    <li class="nav-item mb-2"><a href="#header" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#about" class="nav-link p-0 text-body-secondary">About Us</a></li>
+                    <li class="nav-item mb-2"><a href="#contact" class="nav-link p-0 text-body-secondary">Appointments</a></li>
           
                   </ul>
                 </div>
           
                 <div class="col mb-3">
                   <h5>Keep In Touch.</h5>
-                  <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Address: 235th street milimani
-                        Kitengela.</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Mail:cynthia@gmail.com</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Phone:+254712345687</li>
-          
+                  <ul style="font-size: 30px;" class="nav flex  ">
+                    <li class="nav-item mb-2 my-2 p-2"><a href="#" class="nav-link p-0 text-dark"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li class="nav-item mb-2 my-2 p-2"><a href="#" class="nav-link p-0 text-dark"><ion-icon name="logo-tiktok"></ion-icon></a></li>
+                   
+
+                    <li class="nav-item mb-2 my-2 p-2"><a href="#" class="nav-link p-0 text-dark"><ion-icon name="mail-outline"></ion-icon></a></li>
+                    <li class="nav-item mb-2 my-2 p-2"><a href="#" class="nav-link p-0 text-dark"><ion-icon name="logo-instagram"></ion-icon></a></li>
                   </ul>
                 </div>
           
@@ -443,6 +474,16 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./main.js"></script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
 
     
   </body>
